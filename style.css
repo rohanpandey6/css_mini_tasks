@@ -1,0 +1,202 @@
+p
+{
+	font-family : roboto;
+	font-size: 20px;
+	
+}
+
+#cow_a,#cow_b
+{
+	width: 400px;
+	height: 400px;
+	border-radius: 20px;	
+	border-style: dashed;
+	filter: grayscale(100%);
+	
+	
+}
+@media screen and (min-width: 601px) {
+  div {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    font-size: 10px;
+  }
+}
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: grab;}
+.grabbing {cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+
+#main_div{
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+span:hover {    
+    font-family: monospace;
+    font-size: 20px;
+    color:#33FFA4;
+    
+}
+#wheel:hover{
+	transform: translate(500px);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+	
+#clip_image{
+	position:absolute;
+	background-color:yellow;
+	clip: rect(0px,300px,150px,0px);
+	
+}
+
+.dropcharacter:first-letter {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 5rem;
+  line-height: 0.65;
+}
+.dropcharacter{
+	border: 2px solid black;
+	padding: 10px;
+    width: 300px;
+    line-height:1;
+}
+
+.reshape{
+    width: 200px;
+    height: 100px;
+    border: 0;
+    background-color: skyblue;
+    border-top-left-radius: 25px ;
+    border-bottom-right-radius: 25px;
+
+}
+
+body{
+	background-color: #34495E;
+    background-image: url(1a.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#reverse_div{
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+#image_div{
+	
+	border: 10px solid transparent;
+	border-image: url(border.png) 30 stretch;
+	
+}
+
+#rounded{
+    background-color: teal;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius: 25px ;
+}
+
+#hover_image{
+	height: 200px;
+	width: 200px;
+	opacity: 0.5;
+}
+
+#hover_image:hover{
+	opacity: 1.0;
+}
+
+#absolute_div{
+	background-color: yellow;
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 1435px;
+}
+#with_scroll{
+	margin: auto;
+	width: 200px;
+	height: 120px;
+	overflow: scroll;
+	border: 2px solid black;
+}
+#gradient_div{
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	background-image: linear-gradient(to bottom, white ,red, blue, green)
+	
+}
+#rotate_div{
+	margin: auto;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	background-color: green;
+}
+#rotate_div:hover{
+	transform: rotate(45deg);
+}
